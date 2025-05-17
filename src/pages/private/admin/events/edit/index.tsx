@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
 import PageTitle from "../../../../../components/page-title";
 import EventForm from "../common/event-form";
-import { useNavigate, useParams } from "react-router-dom";
-import {
-  editEvent,
-  getEventById,
-} from "../../../../../api-services/events-service";
+import { useParams } from "react-router-dom";
+import { getEventById } from "../../../../../api-services/events-service";
 import Spinner from "../../../../../components/spinner";
 
 function EditEventPage() {

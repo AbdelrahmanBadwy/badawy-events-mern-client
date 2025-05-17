@@ -110,7 +110,7 @@ function EventForm({
           <Steps.Step
             key={index}
             title={step.title}
-            disable={currentStep < index}
+            disabled={currentStep < index}
             // status={currentStep === index ? "process" : "wait"}
           />
         ))}

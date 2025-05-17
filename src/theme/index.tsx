@@ -1,9 +1,9 @@
-import { Button, ConfigProvider } from "antd";
+import { ConfigProvider } from "antd";
 function ThemeProvider({ children }: { children: React.ReactNode }) {
   return (
     <ConfigProvider
       theme={{
-        token: { colorPrimary: "#2970ff", borderRedius: 2 },
+        token: { colorPrimary: "#2970ff", borderRadius: 2 },
         components: {
           Button: {
             controlHeight: 45,
